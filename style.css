@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(75, 0, 0);
+}
+
+header {
+    width: 100%;
+    background-size: cover;
+}
+
+header img {
+    width: 100%;
+    min-width: 1510px;
+}
+
+main {
+    width: 70%;
+    max-width: 70%;
+    min-width: 1500px;
+    position: relative;
+    margin-top: 2px;
+    background-color: orange;
+    height: 100%;
+    display: block;
+    margin: auto;
+    border: 5px solid;
+    border-radius: 10px;
+    border-color: white;
+}
+
+.Parte-1 {
+    display: flex;
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    max-width: 100%;
+}
+
+.primeiro{
+    display: grid;
+    width: 50%;
+    color: white;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.segundo {
+    padding-left: 100px;
+    width: 50%;
+    display: grid;
+    padding-top: 20px;
+}
+
+.botaum {
+    margin-top: 50px;
+}
+
+#inserir {
+    background-color: rgb(75, 0, 0);
+    color: white;
+    border-color: white;
+    border: 3px solid;
+    width: 20%;
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+.linha {
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.pesquisa {
+    color: white;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pesquisa input{
+    width: 30%;
+}
+
+h2 {
+    color: white;
+    padding-top: 20px;
+    margin-left: 100px;
+    font-size: 50px;
+}
+
+input {
+    outline: 0;
+    border: 3px solid;
+    border-color: rgb(75, 0, 0);
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 15px;
+    width: 50%;
+    margin-top: 10px;
+    font-size: 19px;
+}
+
+table {
+    position: relative;
+    margin: auto;
+    width: 90%;
+    padding: 20px;
+    border: 4px solid;
+    border-color: white;
+    background-color: rgb(75, 0, 0);
+    border-radius: 10px;
+    
+}
+
+td, tr {
+    color: white;
+    border: 4px solid;
+    border-color: white;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+footer {
+    margin-top: 10px;
+    background-color: white;
+    color: orange;
+    text-align: center;
+    min-width: 1500px;
+    z-index: 999;
+}
+
+fieldset {
+    border: none;
+}
+
+#cep {
+    height: 60px;
+}
+
+#email {
+    height: 60px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}

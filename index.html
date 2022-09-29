@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Inscrição para o Cuso JAVASCRIPT</title>
+</head>
+
+<body>
+    <header>
+        <img src="imgs/1.png" alt="foto1">
+    </header>
+
+    <main>
+
+        <h2>Inscrição</h2>
+
+        <section class="conteiner">
+            <form id="form-inscricao">
+
+                <div class="Parte-1">
+                    <div class="primeiro">
+                        <label for="nome">Nome:</label>
+                        <input id="nome" type="text" name="nome" class="campo" required>
+
+                        <label for="cpf">CPF:</label>
+                        <input id="cpf" type="text" name="cpf" class="campo" required>
+
+                        <label for="datadenascimento">Data de nascimento:</label>
+                        <input id="datadenascimento" type="date" name="datadenascimento" class="campo" required>
+
+                        <label for="cidade">Cidade:</label>
+                        <input id="cidade" type="text" name="cidade" class="campo" required>
+
+                        <label for="fone">Telefone:</label>
+                        <input id="fone" type="text" name="fone" class="campo" placeholder="(99) 9999-9999" required>
+                    </div>
+
+                    <div class="segundo">
+                        <fieldset class="radio">
+                            <legend>Distância</legend>
+                            <input type="radio" name="distancia" id="dist" class="distancia" checked value="5Km">5Km
+                            <input type="radio" name="distancia" id="dist" class="distancia" value="10Km">10Km
+                            <input type="radio" name="distancia" id="dist" class="distancia" value="20Km">20Km
+                        </fieldset>
+
+                        <label for="cep">CEP:</label>
+                        <input id="cep" type="text" name="cep" class="campo" required>
+
+                        <label for="email">E-mail:</label>
+                        <input id="email" type="email" name="email" class="campo" placeholder="usuario@dominio"
+                            required>
+                    </div>
+
+                </div>
+                <div class="botaum">
+                    <input id="inserir" name="inserir" type="submit" value="INSERIR" class="botao">
+                </div>
+
+            </form>
+        </section>
+
+
+        <!--PARTE DE CIMA -->
+
+        <div class="linha"></div>
+
+        <section class="conteiner">
+            <div class="pesquisa">
+                <label for="filtro">PESQUISAR :</label>
+                <input id="filtro" type="text" name="filtro" required>
+            </div>
+
+            <table id="tabela">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>CPF</th>
+                        <th>Idade</th>
+                        <th>Telefone</th>
+                        <th>Distância</th>
+                    </tr>
+                </thead>
+
+                <tbody id="tabela-corredores">
+                    <tr class="corredor">
+                        <td class="info-nome">Gustavo</td>
+                        <td class="info-cpf">104.828.519-90</td>
+                        <td class="info-datadenascimento">18</td>
+                        <td class="info-fone">4899662500</td>
+                        <td class="info-distancia">20km</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <script src="script.js"></script>
+
+    </main>
+
+    <footer>
+        <H1>PROJETO AULA VII | MARATONA - @Unibave</H1>
+    </footer>
+
+</body>
+
+</html>
